@@ -52,7 +52,7 @@
 display: flex; 
 justify-content: center;
 align-items: center;
-margin-top: 5rem;
+margin-top: 2rem;
 
 }
 
@@ -65,8 +65,8 @@ margin-top: 5rem;
 
 #line_2{
   font-size: 15px;
-  font-weight: 100;
-  color: darkgray;
+  font-weight: 200;
+  color: black;
 }
 
 #line_3{
@@ -199,7 +199,7 @@ border-radius: 10px;
     overflow: hidden;
    }
 
-   #image2_div{
+   #image3_div{
     height: 220px;
     width: 300px;
     overflow: hidden;
@@ -232,6 +232,12 @@ border-radius: 10px;
 
 
 
+}
+
+@media only screen and (max-width:767px){
+   #footers_title{
+    margin-top:1rem;
+   }
 }
 
 

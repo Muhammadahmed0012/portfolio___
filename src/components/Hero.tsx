@@ -8,10 +8,10 @@ import Footer from "./Footer";
 export default function Hero (){
     return(
         <main id="Hero_body">
-          <Image src={backimg} alt="back" className="lg:h-full lg:w-screen" />
+          <Image src={backimg} alt="back" className="lg:h-full lg:w-screen h-full w-screen" />
           
           <ul id="line_content">
-          <li id="line_1"></li> <h3 id="line_2">SOME OF MY LATEST WORK</h3> <li id="line_3"></li>
+          <li id="line_1" className="hidden md:block lg:block"></li> <h3 id="line_2">SOME OF MY LATEST WORK</h3> <li className="hidden md:block lg:block" id="line_3"></li>
           </ul>
           <div  id="images_container">
             <div id="image1_div" className="">
