@@ -1,0 +1,239 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+
+}
+
+#Navbar_body{
+ background-color: black;
+  height: 90px;
+  width: 100vw;
+  /* opacity: 0.7; */
+  backdrop-filter: blur(100px);
+  color: white;
+  display: flex;
+ align-items: center;
+ justify-content: space-around;
+
+
+}
+
+#Navbar_logo{
+  display: flex;
+  align-items: center;
+}
+
+#Navbar_anchors{
+  display: flex;
+  gap: 5rem;
+}
+
+
+
+
+#Navbar_icons{
+  display: flex; 
+  align-items: center;
+  gap: 10px;
+
+}
+
+
+
+#Hero_body{
+ overflow: hidden; 
+}
+
+#line_content{
+display: flex; 
+justify-content: center;
+align-items: center;
+margin-top: 5rem;
+
+}
+
+#line_1{
+  height: 1px;
+  width: 25rem;
+  background-color: lightgray;
+  margin-right: 25px;
+}
+
+#line_2{
+  font-size: 15px;
+  font-weight: 100;
+  color: darkgray;
+}
+
+#line_3{
+  height: 1px;
+  width: 25rem;
+  background-color: lightgray;
+  margin-left: 25px;
+}
+
+#images_container{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 2rem;
+  
+}
+
+#image1_div:hover{
+  box-shadow: 0 0 5px black,
+              0 0 5px black;
+              
+}
+
+#image2_div:hover{
+  box-shadow: 0 0 5px black,
+              0 0 5px black;
+}
+
+#image3_div:hover{
+  box-shadow: 0 0 5px black,
+              0 0 5px black;
+}
+#image1_div{
+  width: 330px;
+  height: 270px;
+  background-color:white;
+  display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+ color: black;
+ font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+ font-size: 18px;
+ font-weight: lighter;
+ box-shadow: 0 0 10px slategrey,
+             0 0 10px slategray;
+ padding-left: 8px;
+border-radius: 10px;
+
+}
+
+#image2_div{
+  width: 330px;
+  height: 270px;
+  background-color:white;
+  display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+ color: black;
+ font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+ font-size: 18px;
+ font-weight: lighter;
+ box-shadow: 0 0 10px slategrey,
+             0 0 10px slategray;
+padding-left: 8px;
+border-radius: 10px;
+}
+
+#image3_div{
+  width: 330px;
+  height: 270px;
+  background-color:white;
+  display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+ color: black;
+ font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+ font-size: 18px;
+ font-weight: lighter;
+ box-shadow: 0 0 10px slategrey,
+             0 0 10px slategray;
+padding-left: 8px;
+border-radius: 10px;
+}
+
+
+@media only screen and (max-width:885px) {
+  #Navbar_anchors{
+    display: none;
+  }
+
+  #Navbar_icons{
+    display: none;
+  }
+
+  #line_1{
+   width: 10rem;
+  }
+
+  #line_2{
+    font-size: 12px;
+    font-weight: 100;
+
+  }
+
+  #line_3{
+   width: 10rem;
+  }
+
+  #images_container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+   flex-wrap: nowrap;
+ 
+   
+  }
+
+  #image1_div{
+   height: 220px;
+   width: 300px;
+   overflow: hidden;
+  }
+
+  #image2_div{
+    height: 220px;
+    width: 300px;
+    overflow: hidden;
+   }
+
+   #image2_div{
+    height: 220px;
+    width: 300px;
+    overflow: hidden;
+   }
+  
+   #Ham_burger{
+   position: absolute;
+   right: 10px;
+  }
+
+  #Navbar_logo{
+    position: absolute;
+    left: 10px;
+  }
+
+
+
+
+  
+}
+
+
+
+
+@media only screen and (min-width:885px){
+
+  #Ham_burger{
+    display: none;
+  }
+
+
+
+}
+
+
+
+
