@@ -17,7 +17,7 @@ export default function Sheets (){
       <SheetTitle></SheetTitle>
       <SheetDescription>
         <ul className="text-white space-y-8 pt-20 hover:underline   ">
-             <li><a href="" className="hover:text-stone-600">about</a></li> 
+             <li><a href="/about" className="hover:text-stone-600">about</a></li> 
               <li><a href="" className="hover:text-stone-600">book</a></li> 
               <li><a href="" className="hover:text-stone-600">portfolio</a></li>
              <li><a href="" className="hover:text-stone-600">blog</a></li> 
