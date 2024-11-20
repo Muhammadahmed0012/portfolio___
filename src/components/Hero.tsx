@@ -2,7 +2,7 @@ import backimg from "../../public/img3.png"
 import img from "../../public/images1.jpg"
 import img1 from "../../public/images2.jpg"
 import img2 from "../../public/images3.jpg"
-import { ChevronRight } from 'lucide-react';
+
 import Image from "next/image"
 import Footer from "./Footer";
 import 'animate.css';

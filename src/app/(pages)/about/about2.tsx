@@ -1,6 +1,6 @@
 import Image from "next/image"
 import aboutimg from "../../../../public/aboutImages1.png"
-import Image3 from "../../../../public/shot.png"
+
 export default function About2 (){
     return(
         <div className="lg:flex lg:justify-center lg:items-center md:flex md:flex-col md:items-center sm:flex sm:flex-col sm:items-center flex flex-col items-center" id="about_2">
