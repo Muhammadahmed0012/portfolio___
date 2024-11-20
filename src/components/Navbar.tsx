@@ -4,19 +4,18 @@ import { Instagram,  } from 'lucide-react';
 import { Twitter } from 'lucide-react';
 import { Facebook } from 'lucide-react';
 import { Linkedin } from 'lucide-react';
-import About from "./about/About";
+import 'animate.css';
 import Sheets from "./Sheet";
-import Link from "next/link";
 export default function Navbar (){
     return(
-        <nav id="Navbar_body">
+        <nav id="Navbar_body" className="animate__animated animate__fadeInDownBig">
             <div id="Navbar_logo">
             <Image src={img} alt="img" height={70} width={70}/>
             <span>AHM<span>ED</span></span>
             </div>
             <div id="Navbar_anchors">
-                <Link href="/about" >about</Link>
-                <a href="/" className="hover:text-stone-600">book</a>
+               <a href="/about">about</a>
+                <a href="/portfolio" className="hover:text-stone-600">book</a>
                 <a href="" className="hover:text-stone-600">portfolio</a>
                 <a href="" className="hover:text-stone-600">blog</a>
                 <a href="" className="hover:text-stone-600">contact</a>

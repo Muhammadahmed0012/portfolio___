@@ -80,7 +80,7 @@ margin-top: 2rem;
   display: flex;
   justify-content: space-evenly;
   padding-top: 2rem;
-  
+  padding-bottom: 2rem;
 }
 
 #image1_div:hover{
@@ -154,6 +154,7 @@ border-radius: 10px;
 }
 
 
+
 @media only screen and (max-width:885px) {
   #Navbar_anchors{
     display: none;
@@ -224,6 +225,8 @@ border-radius: 10px;
 
 
 
+
+
 @media only screen and (min-width:885px){
 
   #Ham_burger{
@@ -240,6 +243,43 @@ border-radius: 10px;
    }
 }
 
+@media only screen and (max-width:891px){
+  #about_skills{
+    display: none;
+  }
+
+  #about_4{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 51rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1rem;
+    
+   }
+
+   #about_4_img{
+    display: flex;
+
+   height: 10rem;
+   width: 20rem;
+     
+   }
+
+
+}
+
+@media only screen and (min-width:891px){
+ 
+ #img_3{
+  display: none;
+ }
+
+ #about_4{
+  display: none;
+ }
+}
 
 
 
