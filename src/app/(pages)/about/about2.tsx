@@ -11,7 +11,7 @@ export default function About2 (){
                     <li>UX design</li>
                     <li>Design Systems</li>
                     <li>Interaction design</li>
-                    <li>"Making it pop"</li>
+                    <li>Making it pop</li>
                     <li></li>
                 </ul>
             </div >

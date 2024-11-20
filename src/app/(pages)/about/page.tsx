@@ -9,8 +9,8 @@ export default function About (){
         <div id="about_container" className="overflow-hidden">
           <div className="md:absolute md:left-14 md:top-28 md:space-y-9 overflow-hidden sm:flex sm:flex-col sm:pl-20 sm:pt-20 sm:space-y-3 flex flex-col pl-16 pt-16 space-y-3">
           <h1 className="md:font-bold md:text-8xl sm:font-bold sm:text-7xl overflow-hidden font-bold text-5xl ">about.</h1>
-          <p className="md:font-extralight md:text-xl font-[proxima nova light, Helvetica Neue, Helvetica, Arial, Sans-serif] sm:font-extralight sm:text-xl font-extralight text-xl ">i'm web developer based in sindh mirpurkhas</p>
-          <p className="w-96 md:font-extralight md:text-xl font-[proxima nova light, Helvetica Neue, Helvetica, Arial, Sans-serif] sm:font-extralight sm:text-xl font-extralight text-xl">Since 2005, I've enjoyed turning complex problems into simple, beautiful and intuitive designs. When I'm not pushing pixels, you'll find me cooking, gardening or working out in the park.</p>
+          <p className="md:font-extralight md:text-xl font-[proxima nova light, Helvetica Neue, Helvetica, Arial, Sans-serif] sm:font-extralight sm:text-xl font-extralight text-xl ">Im web developer based in sindh mirpurkhas</p>
+          <p className="w-96 md:font-extralight md:text-xl font-[proxima nova light, Helvetica Neue, Helvetica, Arial, Sans-serif] sm:font-extralight sm:text-xl font-extralight text-xl">Since 2005, Ive enjoyed turning complex problems into simple, beautiful and intuitive designs. When Im not pushing pixels, you ll find me cooking, gardening or working out in the park.</p>
          
          </div>
          <div className="overflow-hidden "><Image src={Aboutimg} alt="aboutImg" height={500} width={500} className="lg:absolute lg:right-20 lg:top-52  lg:w-[40rem] md:absolute md:top-[33rem] md:right-16 md:-z-50 sm:flex sm:pl-32 pl-5"/></div>
