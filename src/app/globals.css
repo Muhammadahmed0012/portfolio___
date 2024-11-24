@@ -153,6 +153,36 @@ padding-left: 8px;
 border-radius: 10px;
 }
 
+#portfolio_Img1{
+  width: 330px;
+  height: 270px;
+  background-color:white;
+  display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: self-start;
+ color: black;
+ font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+ font-size: 18px;
+ font-weight: lighter;
+ box-shadow: 0 0 10px slategrey,
+             0 0 10px slategray;
+padding-left: 8px;
+border-radius: 10px;
+}
+
+#portfolio_Img1  h4{
+font-weight: 100;
+font-size: 18px;
+
+}
+
+#portfolio_Img1  p{
+  font-weight: lighter;
+  font-size: 14px;
+  opacity: 0.7;
+  
+  }
 
 
 @media only screen and (max-width:885px) {

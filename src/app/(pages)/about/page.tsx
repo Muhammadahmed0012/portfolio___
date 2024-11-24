@@ -6,6 +6,8 @@ import About3 from "./about3";
 
 export default function About (){
     return(
+      <div>
+      <div>
         <div id="about_container" className="overflow-hidden">
           <div className="md:absolute md:left-14 md:top-28 md:space-y-9 overflow-hidden sm:flex sm:flex-col sm:pl-20 sm:pt-20 sm:space-y-3 flex flex-col pl-16 pt-16 space-y-3">
           <h1 className="md:font-bold md:text-8xl sm:font-bold sm:text-7xl overflow-hidden font-bold text-5xl ">about.</h1>
@@ -40,5 +42,10 @@ export default function About (){
         
         </div>
         
+        </div>
+        
+        </div>
+        
+
     )
 }

@@ -14,9 +14,9 @@ export default function Navbar (){
             <span>AHM<span>ED</span></span>
             </div>
             <div id="Navbar_anchors">
-               <a href="/about">about</a>
-                <a href="/portfolio" className="hover:text-stone-600">book</a>
-                <a href="" className="hover:text-stone-600">portfolio</a>
+               <a href="/about" className="hover:text-stone-600">about</a>
+                <a href="/book" className="hover:text-stone-600">book</a>
+                <a href="/portfolio" className="hover:text-stone-600">portfolio</a>
                 <a href="" className="hover:text-stone-600">blog</a>
                 <a href="" className="hover:text-stone-600">contact</a>
                 </div>
