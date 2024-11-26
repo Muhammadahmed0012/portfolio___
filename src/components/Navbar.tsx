@@ -17,8 +17,8 @@ export default function Navbar (){
                <a href="/about" className="hover:text-stone-600">about</a>
                 <a href="/book" className="hover:text-stone-600">book</a>
                 <a href="/portfolio" className="hover:text-stone-600">portfolio</a>
-                <a href="" className="hover:text-stone-600">blog</a>
-                <a href="" className="hover:text-stone-600">contact</a>
+                <a href="/blog" className="hover:text-stone-600">blog</a>
+                <a href="/contact" className="hover:text-stone-600">contact</a>
                 </div>
             <div id="Navbar_icons">
           <a href="https://www.instagram.com/invites/contact/?igsh=y5tukgt88li&utm_content=kcipnpj">  <Instagram size={32} color="white" strokeWidth={1.5} /></a>

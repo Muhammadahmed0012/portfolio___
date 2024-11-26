@@ -5,11 +5,11 @@ export default function Footer (){
                 flex justify-center items-center "><a href="">@2024 Muhamad Ahmed</a></div>
         <div  className="md:flex sm:hidden  hidden md:justify-center md:items-center gap-11">
            
-           <a href="">about</a>
-            <a href="">book</a>
-            <a href="">portfolio</a>
-        <a href="">blog</a>
-            <a href="">contact</a>
+           <a href="/about">about</a>
+            <a href="/book">book</a>
+            <a href="/portfolio">portfolio</a>
+        <a href="/blog">blog</a>
+            <a href="/contact">contact</a>
             
         </div>
          

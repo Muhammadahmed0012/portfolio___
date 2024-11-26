@@ -18,10 +18,10 @@ export default function Sheets (){
       <SheetDescription>
         <ul className="text-white space-y-8 pt-20 hover:underline   ">
              <li><a href="/about" className="hover:text-stone-600">about</a></li> 
-              <li><a href="" className="hover:text-stone-600">book</a></li> 
-              <li><a href="" className="hover:text-stone-600">portfolio</a></li>
-             <li><a href="" className="hover:text-stone-600">blog</a></li> 
-             <li><a href="" className="hover:text-stone-600">contact</a></li> 
+              <li><a href="/book" className="hover:text-stone-600">book</a></li> 
+              <li><a href="/portfolio" className="hover:text-stone-600">portfolio</a></li>
+             <li><a href="/blog" className="hover:text-stone-600">blog</a></li> 
+             <li><a href="/contact" className="hover:text-stone-600">contact</a></li> 
 
                 </ul>
       </SheetDescription>
